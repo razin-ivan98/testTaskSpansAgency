@@ -5,36 +5,90 @@ import {
   LinksItemHeadWrapper,
 } from "./Links.styled";
 
+import Link from "../../common/Link/Link";
+
 const Links = () => {
   return (
     <LinksWrapper>
       <LinksColumnWrapper>
         <LinksItemHeadWrapper>Разделы</LinksItemHeadWrapper>
-        <LinksItemWrapper>Главная</LinksItemWrapper>
-        <LinksItemWrapper>Расписание</LinksItemWrapper>
-        <LinksItemWrapper>Игровые отчеты</LinksItemWrapper>
-        <LinksItemWrapper>Статистика</LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Главная
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Расписание
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Игровые отчеты
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Статистика
+          </Link>
+        </LinksItemWrapper>
       </LinksColumnWrapper>
 
       <LinksColumnWrapper>
         <LinksItemHeadWrapper>Виды спорта</LinksItemHeadWrapper>
-        <LinksItemWrapper>Футбол</LinksItemWrapper>
-        <LinksItemWrapper>Баскетбол</LinksItemWrapper>
-        <LinksItemWrapper>Волейбол</LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Футбол
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Баскетбол
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Волейбол
+          </Link>
+        </LinksItemWrapper>
       </LinksColumnWrapper>
 
       <LinksColumnWrapper>
         <LinksItemHeadWrapper>Полезное</LinksItemHeadWrapper>
-        <LinksItemWrapper>Как записаться?</LinksItemWrapper>
-        <LinksItemWrapper>Ответы на вопросы</LinksItemWrapper>
-        <LinksItemWrapper>Достижения</LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Как записаться?
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Ответы на вопросы
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Достижения
+          </Link>
+        </LinksItemWrapper>
       </LinksColumnWrapper>
 
       <LinksColumnWrapper>
         <LinksItemHeadWrapper>Че почем</LinksItemHeadWrapper>
-        <LinksItemWrapper>Абонементы</LinksItemWrapper>
-        <LinksItemWrapper>Корп. клиентам</LinksItemWrapper>
-        <LinksItemWrapper>ПАртнерам</LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Абонементы
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            Корп. клиентам
+          </Link>
+        </LinksItemWrapper>
+        <LinksItemWrapper>
+          <Link variant="light" href="/#">
+            ПАртнерам
+          </Link>
+        </LinksItemWrapper>
       </LinksColumnWrapper>
     </LinksWrapper>
   );

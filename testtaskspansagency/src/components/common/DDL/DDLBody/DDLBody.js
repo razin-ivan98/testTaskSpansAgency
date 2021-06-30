@@ -1,15 +1,9 @@
-import { forwardRef } from "react";
-
 import { DDLBodyWrapper } from "./DDLBody.styled";
 
-const DDLBody = forwardRef((props, ref) => {
+const DDLBody = (props) => {
   const { children, dropped } = props;
 
-  return (
-    <DDLBodyWrapper ref={ref} dropped={dropped}>
-      {children}
-    </DDLBodyWrapper>
-  );
-});
+  return <DDLBodyWrapper dropped={dropped}>{children}</DDLBodyWrapper>;
+};
 
 export default DDLBody;

@@ -1,11 +1,7 @@
 import { NavItemWrapper } from "./NavItem.styled.js";
 
 function NavItem(props) {
-  return (
-    <NavItemWrapper>
-      <a href="/#">{props.children}</a>
-    </NavItemWrapper>
-  );
+  return <NavItemWrapper>{props.children}</NavItemWrapper>;
 }
 
 export default NavItem;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import * as sizes from "../../../../consts/screenSizes";
 
 export const BurgerWrapper = styled.label`
+  display: block;
   width: 20px;
   height: 20px;
   position: relative;

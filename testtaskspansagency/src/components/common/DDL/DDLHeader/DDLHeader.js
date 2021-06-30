@@ -1,9 +1,9 @@
 import { DDLHeaderWpapper, DDLArrowWrapper } from "./DDLHeader.styled";
 
 const DDLHeader = (props) => {
-  const { title, onClick, dropped } = props;
+  const { title, onClick, dropped, variant } = props;
   return (
-    <DDLHeaderWpapper onClick={onClick}>
+    <DDLHeaderWpapper variant={variant} onClick={onClick}>
       {title}
       <DDLArrowWrapper dropped={dropped} />
     </DDLHeaderWpapper>

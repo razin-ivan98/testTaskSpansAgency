@@ -24,9 +24,7 @@ export const LinksItemHeadWrapper = styled.div`
   text-align: left;
   margin-bottom: 20px;
 `;
-export const LinksItemWrapper = styled.a`
-  display: block;
-  color: white;
+export const LinksItemWrapper = styled.div`
   text-align: left;
   & + & {
     margin-top: 10px;
